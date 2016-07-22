@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.php?c=product&a=get$ /product.html [L,R=301]
